@@ -1,0 +1,29 @@
+{
+    "name": "sayeed/lumen-serve",
+    "description": "Serve the application on the PHP development server",
+    "keywords": ["lumen", "serve", "artisan"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hasan Sayeed",
+            "email": "jbhasan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3",
+        "illuminate/console": "~7.0||^8.0",
+        "illuminate/support": "~7.0||^8.0",
+        "laravel/helpers": "^1.4",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sayeed\\LumenServe\\": "src/"
+        }
+    },
+    "require-dev": {
+        "laravel/lumen-framework": "^8.0"
+    }
+}
